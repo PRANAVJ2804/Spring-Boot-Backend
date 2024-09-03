@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: movies
+    env: java
+    plan: free
+    buildCommand: ./mvnw clean install
+    startCommand: java -jar target/movies-0.0.1-SNAPSHOT.jar
+    envVars:
+      - key: SPRING_DATA_MONGODB_URI
+        value: mongodb+srv://pranavj:Z9NeeVsGqc7h8sz@cluster0.isnrn.mongodb.net/
