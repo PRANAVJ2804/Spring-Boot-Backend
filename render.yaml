@@ -6,4 +6,4 @@ services:
     dockerfilePath: ./Dockerfile
     envVars:
       - key: SPRING_DATA_MONGODB_URI
-        value: mongodb+srv://pranavj:Z9NeeVsGqc7h8sz@cluster0.isnrn.mongodb.net/
+        value: mongodb+srv://Pranav_J:Pranav@007@cluster0.ke7esf1.mongodb.net/movies-api-db
